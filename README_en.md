@@ -1,8 +1,3 @@
-### 第一部分：英文版 README (`README_en.md`)
-
-你可以直接复制以下内容：
-
-```markdown
 # 🚀 haocode-Studio
 
 > **A Conversation-First, Human-AI Collaborative Multi-Agent Workstation (Desktop)**
