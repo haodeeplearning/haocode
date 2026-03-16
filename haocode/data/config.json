@@ -1,0 +1,39 @@
+{
+    "providers": {
+        "柏拉图": {
+            "api_key": "sk-Cjfb0XhJg2gAo2OtbCvvEuGPTtDJalazVv8QrCCm3Ku5cAtn",
+            "base_url": "https://api.gptbest.vip/v1",
+            "models": [
+                "gemini-3.1-pro-preview-thinking-high",
+                "gpt-4o",
+                "claude-3-5-sonnet-20240620",
+                "gemini-3-flash-preview"
+            ],
+            "model_contexts": {
+                "gemini-3.1-pro-preview-thinking-high": 128000,
+                "gpt-4o": 128000,
+                "claude-3-5-sonnet-20240620": 128000,
+                "gemini-3-flash-preview": 128000
+            }
+        },
+        "qwen": {
+            "api_key": "sk-77774ad264e245d6b8cc648f4298ccf6",
+            "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+            "models": [
+                "qwen3.5-397b-a17b",
+                "qwen3.5-122b-a10b",
+                "qwen3.5-35b-a3b",
+                "qwen3.5-27b"
+            ],
+            "model_contexts": {
+                "qwen3.5-397b-a17b": 128000,
+                "qwen3.5-122b-a10b": 128000,
+                "qwen3.5-35b-a3b": 128000,
+                "qwen3.5-27b": 128000
+            }
+        }
+    },
+    "default_provider": "柏拉图",
+    "default_model": "gemini-3-flash-preview",
+    "temperature": 0.7
+}

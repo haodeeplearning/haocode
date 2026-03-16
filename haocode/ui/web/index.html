@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="marked.min.js"></script>
+    <link rel="stylesheet" href="highlight/atom-one-dark.min.css">
+    <script src="highlight/highlight.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--🌟 欢迎界面独立出来，不在 chat-container 内 -->
+    <div class="welcome-screen">
+        <div class="welcome-content">
+            <div class="brand">
+                <h1 class="brand-name">haocode</h1>
+                <p class="brand-tagline">AI驱动的智能开发助手</p>
+                <span class="dev-badge">开发中</span>
+            </div>
+            <div class="capabilities">
+                <div class="capability-item">
+                    <span class="cap-icon">💬</span>
+                    <span class="cap-text">智能对话</span>
+                    <span class="cap-desc">流式响应 · 思考过程可视化</span>
+                </div>
+                <div class="capability-item">
+                    <span class="cap-icon">📝</span>
+                    <span class="cap-text">代码编辑</span>
+                    <span class="cap-desc">精准替换 · 自动备份</span>
+                </div>
+                <div class="capability-item">
+                    <span class="cap-icon">⚙️</span>
+                    <span class="cap-text">命令执行</span>
+                    <span class="cap-desc">沙盒隔离 · 权限控制</span>
+                </div>
+                <div class="capability-item">
+                    <span class="cap-icon">🔧</span>
+                    <span class="cap-text">工具生态</span>
+                    <span class="cap-desc">动态加载 · 自动注册</span>
+                </div>
+            </div>
+            
+            <div class="start-hint">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+                <span>在下方输入框开始对话</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 🌟 聊天容器保持原样 -->
+    <div id="chat-container"></div>
+    
+    <div id="scroll-anchor" style="height: 1px; margin-bottom: 150px;"></div>
+    <script src="app.js"></script>
+</body>
+</html>
